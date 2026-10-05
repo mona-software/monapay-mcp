@@ -3,15 +3,15 @@
   "name": "vn.monapay/monapay-mcp",
   "description": "MONA Pay for AI agents: create VietQR, check bank transfers, webhooks & HMAC. Vietnam bank API, VND",
   "repository": {
-    "url": "https://github.com/themonagroup/monapay-mcp",
+    "url": "https://github.com/mona-software/monapay-mcp",
     "source": "github"
   },
-  "version": "0.6.1",
+  "version": "0.6.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "monapay-mcp",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "transport": {
         "type": "stdio"
       },

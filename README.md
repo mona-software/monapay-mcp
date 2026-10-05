@@ -141,3 +141,5 @@ MONAPAY_CLIENT_ID=... MONAPAY_CLIENT_SECRET=... npm run smoke   # gọi thật v
 ```
 
 Tài liệu: https://monapay.vn/docs · llms.txt: https://monapay.vn/llms.txt · OpenAPI: https://monapay.vn/openapi.json · Hotline 1900 636 648 · info@themona.global
+
+**MONA Pay thuộc bộ MONA Cloud của The MONA Group.**

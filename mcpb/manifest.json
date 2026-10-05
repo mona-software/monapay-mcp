@@ -3,7 +3,7 @@
   "manifest_version": "0.2",
   "name": "monapay-mcp",
   "display_name": "MONA Pay",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "MONA Pay for AI agents: create VietQR codes, check incoming bank transfers, configure and test webhooks, verify HMAC signatures. Vietnam bank API in VND.",
   "long_description": "monapay-mcp lets Claude Code, Codex or Cursor call MONA Pay while coding: create a VietQR for an order, look up transactions, create/test webhooks, verify HMAC-SHA256 signatures and get webhook handler snippets (PHP/Node/Python). MONA Pay is the bank API and automatic payment-confirmation service of The MONA Group (Vietnam).",
   "author": {
@@ -12,10 +12,10 @@
   },
   "homepage": "https://monapay.vn",
   "documentation": "https://monapay.vn/ai-agent",
-  "support": "https://github.com/themonagroup/monapay-mcp/issues",
+  "support": "https://github.com/mona-software/monapay-mcp/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/themonagroup/monapay-mcp"
+    "url": "https://github.com/mona-software/monapay-mcp"
   },
   "license": "MIT",
   "keywords": [
