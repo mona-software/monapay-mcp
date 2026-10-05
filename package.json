@@ -32,14 +32,11 @@
     "monapay",
     "vietqr",
     "webhook",
-    "email",
-    "zalo",
     "payment",
     "vietnam",
-    "acb",
+    "ai-agent",
     "claude-code",
-    "cursor",
-    "codex"
+    "cursor"
   ],
   "repository": {
     "type": "git",

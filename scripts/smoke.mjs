@@ -2,7 +2,8 @@
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
 import { createServer } from '../dist/server.js';
-process.env.MONAPAY_USERNAME ||= '***REMOVED***'; process.env.MONAPAY_PASSWORD ||= '***REMOVED***'; process.env.MONAPAY_BASE_URL ||= 'https://api.monapay.vn';
+for (const key of ['MONAPAY_USERNAME', 'MONAPAY_PASSWORD']) if (!process.env[key]) throw new Error(`Set ${key} (test account) before running the smoke test.`);
+process.env.MONAPAY_BASE_URL ||= 'https://api.monapay.vn';
 const server = createServer(); const [ct, st] = InMemoryTransport.createLinkedPair();
 await server.connect(st); const client = new Client({ name: 'smoke', version: '0.0.0' }); await client.connect(ct);
 const tools = await client.listTools(); console.log('tools:', tools.tools.length, tools.tools.map((t) => t.name).join(', '));
