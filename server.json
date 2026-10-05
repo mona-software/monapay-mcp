@@ -39,7 +39,7 @@
         }
       ],
       "runtimeHint": "npx",
-      "packageArguments": [
+      "runtimeArguments": [
         {
           "type": "positional",
           "value": "-y",
